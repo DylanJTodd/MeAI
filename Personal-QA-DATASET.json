@@ -1,0 +1,252 @@
+[
+    {
+      "id": "1",
+      "question": "Tell me about yourself/your work experience",
+      "answer": ""
+    },
+    {
+      "id": "2",
+      "question": "Tell me about a time you demonstrated leadership skills",
+      "answer": ""
+    },
+    {
+      "id": "3",
+      "question": "What’s a time you disagreed with a decision that was made at work?",
+      "answer": ""
+    },
+    {
+        "id": "4",
+        "question": "Tell me about a time you made a mistake",
+        "answer": ""
+    },
+    {
+        "id": "5",
+        "question": "Tell me about a time you failed",
+        "answer": ""
+    },
+    {
+        "id": "6",
+        "question": "What’s your work style?",
+        "answer": ""
+    },
+    {
+        "id": "7",
+        "question": "What’s your management style?",
+        "answer": ""
+    },
+    {
+        "id": "8",
+        "question": "How do you handle stress?",
+        "answer": ""
+    },
+    {
+        "id": "9",
+        "question": "What do you like to do outside of work?",
+        "answer": ""
+    },
+    {
+        "id": "10",
+        "question": "What motivates you?",
+        "answer": ""
+    },
+    {
+        "id": "11",
+        "question": "How do you like to be managed?",
+        "answer": ""
+    },
+    {
+        "id": "12",
+        "question": "Where do you see yourself in five years?",
+        "answer": ""
+    },
+    {
+        "id": "13",
+        "question": "What are your career aspirations?",
+        "answer": ""
+    },
+    {
+        "id": "14",
+        "question": "How would you describe yourself?",
+        "answer": ""
+    },
+    {
+        "id": "15",
+        "question": "Is there ever a good reason to lie? When?",
+        "answer": ""
+    },
+    {
+        "id": "16",
+        "question": "What do you do when no one is watching, and you could get away with anything?",
+        "answer": ""
+    },
+    {
+        "id": "17",
+        "question": "What’s the purpose of life, in your opinion?",
+        "answer": ""
+    },
+    {
+        "id": "18",
+        "question": "What do you think is more important: happiness or meaning? Why?",
+        "answer": ""
+    },
+    {
+        "id": "19",
+        "question": "Do you believe people are inherently good, evil, or shaped by experience?",
+        "answer": ""
+    },
+    {
+        "id": "20",
+        "question": "What’s a flaw you’re actively working on?",
+        "answer": ""
+    },
+    {
+        "id": "21",
+        "question": "How do you respond to criticism, especially if it feels unfair?",
+        "answer": ""
+    },
+    {
+        "id": "22",
+        "question": "When was the last time you changed your mind about something important?",
+        "answer": ""
+    },
+    {
+        "id": "23",
+        "question": "How do you handle someone you disagree with but still care about?",
+        "answer": ""
+    },
+    {
+        "id": "24",
+        "question": "Would you rather be respected or liked? Why?",
+        "answer": ""
+    },
+    {
+        "id": "25",
+        "question": "What role does forgiveness play in your life?",
+        "answer": ""
+    },
+    {
+        "id": "26",
+        "question": "How do you make hard decisions when there's no clear right answer?",
+        "answer": ""
+    },
+    {
+        "id": "27",
+        "question": "Do you believe you’re responsible for the consequences of your actions, even if your intentions were good?",
+        "answer": ""
+    },
+    {
+        "id": "28",
+        "question": "Have you ever broken a rule you thought was wrong? What happened?",
+        "answer": ""
+    },
+    {
+        "id": "29",
+        "question": "What do you prioritize when your values are in conflict (e.g., loyalty vs. honesty)?",
+        "answer": ""
+    },
+    {
+        "id": "30",
+        "question": "What kind of people do you find it hardest to understand or get along with?",
+        "answer": ""
+    },
+    {
+        "id": "31",
+        "question": "What do you think is society’s greatest blind spot?",
+        "answer": ""
+    },
+    {
+        "id": "32",
+        "question": "What do you avoid doing even though it’s easy, because it goes against your principles?",
+        "answer": ""
+    },
+    {
+        "id": "33",
+        "question": "How do you usually act when you're frustrated or under stress?",
+        "answer": ""
+    },
+    {
+        "id": "34",
+        "question": "How do you handle boredom?",
+        "answer": ""
+    },
+    {
+        "id": "35",
+        "question": "Do you prefer routine or spontaneity? Why?",
+        "answer": ""
+    },
+    {
+        "id": "36",
+        "question": "What’s something small you do out of principle, even if most people wouldn’t care?",
+        "answer": ""
+    },
+    {
+        "id": "37",
+        "question": "Would you steal to feed a starving loved one? Why or why not?",
+        "answer": ""
+    },
+    {
+        "id": "38",
+        "question": "Is morality objective or relative? Explain your stance.",
+        "answer": ""
+    },
+    {
+        "id": "39",
+        "question": "Would you follow a law you disagreed with if breaking it helped someone?",
+        "answer": ""
+    },
+    {
+        "id": "40",
+        "question": "Is it ever okay to sacrifice one person for the good of many?",
+        "answer": ""
+    },
+    {
+        "id": "41",
+        "question": "Do you think most people deserve second chances? What are your exceptions?",
+        "answer": ""
+    },
+    {
+        "id": "42",
+        "question": "Do you believe everyone deserves kindness — even those who’ve done harm?",
+        "answer": ""
+    },
+    {
+        "id": "43",
+        "question": "Are there parts of yourself you consider unchangeable? Should they be?",
+        "answer": ""
+    },
+    {
+        "id": "44",
+        "question": "What’s a truth you’ve learned the hard way?",
+        "answer": ""
+    },
+    {
+        "id": "45",
+        "question": "What do you do that makes you feel most like “you”?",
+        "answer": ""
+    },
+    {
+        "id": "46",
+        "question": "If a lie could permanently heal someone’s trauma, would you tell it?",
+        "answer": ""
+    },
+    {
+        "id": "47",
+        "question": "Would you rather be punished for something you didn’t do, or watch someone else take the blame for something you did?",
+        "answer": ""
+    },
+    {
+        "id": "48",
+        "question": "Have you ever felt pleasure from someone else's downfall? What did that reveal about you?",
+        "answer": ""
+    },
+    {
+        "id": "49",
+        "question": "Have you ever changed your values just to belong? Did you notice at the time?",
+        "answer": ""
+    },
+    {
+        "id": "50",
+        "question": "Is suffering necessary for a meaningful life? Would you remove it if you could?",
+        "answer": ""
+    }
+  ]
