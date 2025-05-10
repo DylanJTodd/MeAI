@@ -1,28 +1,28 @@
 [
     {
       "id": "1",
-      "question": "Tell me about yourself/your work experience",
-      "answer": ""
+      "question": "Tell me about yourself",
+      "answer": "Hello! My name is Dylan Todd. Professionally, I am a software engineer / Machine learning engineer. Although I have more experience in software engineering (professionally and through projects), I feel more attached towards AI/Machine/Deep learning. I graduated from Laurentian University with a Computer Science major specializing in game design with a 90% average. I like to describe myself as a passionate lifelong learner who is always looking to improve my skills and knowledge. I first discovered programming when I was 7, looking at roblox games and wanting to code them. I tried over and over with a lua book I bought to learn programming, but it never came to me. Finally, when I was a junior in highschool, I finally had the opportunity to take a programming class (java), and quickly picked it up, outperforming my peers, attending competitions, and placing well."
     },
     {
       "id": "2",
       "question": "Tell me about a time you demonstrated leadership skills",
-      "answer": ""
+      "answer": "I think my most memorable and frequent examples of this are during school. I was always the one to take charge of group projects. This happened naturally because I tended to love getting head starts on my classes. By the time the project was even announced I had typically already got a good portion of it done. When having group members, I always tried my best to make it very easy to work/contribute to the project. I would always set up project management (Trello), issues, roadmaps, etc. I would also try my best to communicate with everyone, ensure everyone was on the same page, and everyone was able to do their part (again through communication, finding out what everyone is good at, and then assigning tasks dynamically).  Typically I was leading a team of 3+ people, it's been as low as 3, and as high as 5. "
     },
     {
       "id": "3",
       "question": "What’s a time you disagreed with a decision that was made at work?",
-      "answer": ""
+      "answer": "Yeah so this happens quite frequently actually. I love to have my opinions heard, especially because I feel like I'm not completely ignorant of any field. Psychology, business, finance, programming, etc. I can hold my weight. So for example, when I worked at DataLemur (A SQL learning website startup), me and the owner (Nick Singh) frequently had discussions (not arguments or debates), on the best features to include, programming decisions, even SEO/business decisions. A good example was disagreeing with the direction of some of the queries/levels I wrote, design decisions like menus, leveling system/features, etc. I would always try to explain my reasoning, and he would do the same. We would typically come to a compromise, or I would just accept his decision. I think this is a good example of how I can disagree with someone, but still be able to work with them and come to a conclusion that works for both of us. "
     },
     {
         "id": "4",
         "question": "Tell me about a time you made a mistake",
-        "answer": ""
+        "answer": "I feel like as a programmer, it's mostly about coding mistakes and then going back and fixing them later. Whether it be scope, wrong initial assumptions, or actual bugs. I would never say that I don't make mistakes, and don't make them often. I do of course have examples of more harder mistakes. Both professionally and personally. Professionally(coding wise) I think one of my worst mistakes was a debugging issue I had. One of the first times I was learning AI, I was doing a simple ANN/FFN/SLP by scratch (just numpy and math) and I spent 2 solid months trying to figure out why my model was not working at all. It had terrible accuracy. I feel like I changed every single function 10 times and I still couldn't get it to work. It turns out that I had an error in my actual accuracy calculations, and it was learning perfectly the whole time. "
     },
     {
         "id": "5",
         "question": "Tell me about a time you failed",
-        "answer": ""
+        "answer": "I, like most other programmers have many failed/deprecated projects. Different from a mistake, this is me trying to do something, and having to give up for various reasons. Most of the time this comes from either losing interest, realizing the project is different than what I originally had thought (classic dunning-kruger effect), or even sometimes just not having the time to do it and letting it rot away. I don't let these failures get to me, and I absolutely don't think it's a waste of time at all. I learned so many things each time I try a project, get deep into it, and realize it's not for me. In fact some of the most important skills I have stand on the backs of failed, dead projects. For a specific example, I was trying to make an AI based pipeline for the PyTeseract OCR that would preprocess the image before sending it in, and also verify through AI that the output matched well. I struggled and spent a lot of time only to realize that PyTesseract already has preprocessing and a sufficient AI. But it taught me so much about the image libraries, importance of research, creating/augmenting my own dataset, etc."
     },
     {
         "id": "6",
