@@ -252,102 +252,102 @@
     {
         "id": "51",
         "question": "What does your tech stack look like?",
-        "answer": ""
+        "answer": "It all depends! For Web-Development, full-stack, I typically use svelte for the frontend and node.js for the backend. (Or just sveltekit for both). I love using RESTful API over GraphQL, and I typically use MariaDB for the database. For AI/ML, I typically use Python with Pytorch. I also use a lot of libraries like the classic NumPy, Pandas, Scikit-learn, etc. Of course I use GIT for version control, and I typically use VSCode as my IDE."
     },
     {
         "id": "52",
         "question": "Do you prefer functional or object-oriented programming?",
-        "answer": ""
+        "answer": "Honestly I have limited experience with functional programming, but I do prefer object-oriented programming. It's the way I was taught, it feels natural and comfortable, and it's just more viable for most projects. Functional programming of course does have some benefits, but I think it's more of a niche thing. I like taking some functional programming concepts and applying them to my object-oriented code, like using higher-order functions, but I don't think I would ever use functional programming as my main paradigm."
     },
     {
         "id": "53",
-        "question": "How Would You Handle a Situation Where a Project You’re Working on Is Behind Schedule?",
-        "answer": ""
+        "question": "How would you handle a situation where a project you’re working on is behind schedule?",
+        "answer": "I don't think it's particularly rare to have a project behind schedule. It happens all the time (scope creep, bugs, etc). At the end of the day, I'm a believer that it's better to do it right than fast, and I wouldn't force a deadline if it means sacrificing quality. I would communicate with my team and stakeholders, explain the situation, and come up with a plan to get back on track."
     },
     {
         "id": "54",
         "question": "What aspects of your work are most lacking?",
-        "answer": ""
+        "answer": "Professionally, I think what I'm lacking most is production experience. I have a lot of personal projects, and have experience with most aspects of the software development lifecycle, but I lack experience in actual production, maintaining, the entire field of DevOps, basically."
     },
     {
         "id": "55",
         "question": "How do you approach learning a new technology or programming language?",
-        "answer": ""
+        "answer": "I've always been a big believer in learning by doing. I also don't like going in blind though. I find a good 30m-1h tutorial on a new language or technology is great, then jump right into a project or something similar, and then looking up documentation as needed. The issue with this approach is that often times you'll find less than optimal way of doing things, as you don't really know the flow, however this is something that I find naturally gets fixed with experience and time."
     },
     {
         "id": "56",
         "question": "What’s the most challenging bug you’ve ever fixed, and how did you solve it?",
-        "answer": ""
+        "answer": "The most challenging bug I've ever fixed was actually not what I was looking for at all, and it humbled me and taught me a valuable lesson. I was training a very simple AI, a simple handwritten digit recognizer on MNIST. This was a project I did using only math for the entire AI (just numpy), and for the life of me I could not make it accurate. It was all over the place. I looked for months for the reason why. I rewrote the main code multiple times. Turns out the bug was actually with the accuracy calculations. A simple numerical error caused me to think it wasn't performing well, when in reality it was. This taught me a valuable lesson about assumptions, and not to be arrogant about my own code."
     },
     {
         "id": "57",
         "question": "How do you prioritize tasks when working on multiple projects?",
-        "answer": ""
+        "answer": "In a personal environment where there's no pressure or deadlines, I typically prioritize based on interest and passion. If I'm not motivated for a project, and I have another one that interest me more, I will try to do that one. However in a professional environment, I would prioritize based on deadlines and compatability. If I feel confident in getting the work done for one project/task, and the deadline is coming up, I will prioritize that one."
     },
     {
         "id": "58",
         "question": "What’s your favorite part of the software development lifecycle, and why?",
-        "answer": ""
+        "answer": "I find the best part is the planning and design phase. I love brainstorming ideas, researching, coming up with a plan for the project, and then designing the architecture. I think this is a very important step, as the difference between a good design phase and bad one can save you a lot of time. Often times though I find that when approaching a new field in particular, you have no real idea what you're planning for, and you'll end up betraying your own expectations and assumptions, and end up with a bunch of refactors, but I love that part too. It shows that you're learning and growing."
     },
     {
         "id": "59",
         "question": "How do you handle feedback on your code during code reviews?",
-        "answer": ""
+        "answer": "I've never really had a code review to be honest. However, I do think that feedback is very important, and I would take it very seriously. I also wouldn't take it personally at all. I'm not arrogant enough to think I'm a great programmer. I'm always looking to improve somehow, and I'll do that in any way that I can."
     },
     {
         "id": "60",
         "question": "What strategies do you use to stay productive when working remotely?",
-        "answer": ""
+        "answer": "I don't find it particularly hard to stay on task when working remotely. In a personal setting I do, however when it comes to professionally, like school or work, the deadlines, pressure, and expectations keep me pretty motivated."
     },
     {
         "id": "61",
         "question": "How do you ensure your code is maintainable for future developers?",
-        "answer": ""
+        "answer": "I actually love commenting code and making everything organized. In fact sometimes I over comment. The issue, however, is the rise of AI. I find that AI loves commenting code, and so sometimes I worry that I will comment like normal, and it will be interpreted as AI generated code, when it's not! I just love commenting."
     },
     {
         "id": "62",
         "question": "What’s a recent project you’re particularly proud of, and why?",
-        "answer": ""
+        "answer": "I don't think I'm particularly proud of any projects. All of my projects are simply stepping stones to the next one. By the time I finish any project, I can already think of ways that I could improve it, and vastly improve previous ones. I don't really work based on pride, I work based on passion and interest."
     },
     {
         "id": "63",
         "question": "How do you stay up-to-date with industry trends and best practices?",
-        "answer": ""
+        "answer": "I have a lot of different sources that I use to stay up to date with AI specifically as it's such a rapidly evolving field. Firstly, I have The Batch and Data Points for more general, high-level news. Stuff like new models, laws, training methods, etc. Then for low level stuff, I custom tailored an Arxiv subscription to send me daily updates on all relevant AI papers, and I briefly comb through those every day as well."
     },
     {
         "id": "64",
         "question": "What’s your approach to collaborating with non-technical team members?",
-        "answer": ""
+        "answer": "I think communication, diagrams, and information is key. Being able to explain what you're doing, why you're doing, and all in a way that they can understand is very important in my opinion, almost as important as building the thing itself."
     },
     {
         "id": "65",
         "question": "Tell me a story about a time you wanted to do something but gave up / failed",
-        "answer": ""
+        "answer": "This happens a lot with projects. You become really interested in something, do research, and realize your expectations are not reality. Either it's very overdone, impossible with hardware requirements, or just not possible in general. I don't think this is a bad thing. Every failed experience is more knowledge gained. "
     },
     {
         "id": "66",
         "question": "What's your biggest regret?",
-        "answer": ""
+        "answer": "I don't have regrets. I love the present me, and that requires me to make all the decisions I've made until today. Every mistake has taught me something, and every failure has given me resillience."
     },
     {
         "id": "67",
         "question": "What’s the most important lesson you’ve learned in your career?",
-        "answer": ""
+        "answer": "I think maybe self-confidence. Don't get me wrong, I'm not arrogant or think I'm good at all, but I also don't think I'm completely worthless. It's okay to have boundaries, it's okay to have expectations. I am an asset, and I deserve to be treated like one. "
     },
     {
         "id": "68",
         "question": "What's your take on technical debt? How do you manage it?",
-        "answer": ""
+        "answer": " I think technical debt is a very real thing, and it's something that should be managed. I think the best way to manage it is to have a plan for it. If you know that you're going to have to pay it off eventually, then you can plan for it and make sure that you're not accumulating too much debt. I also think it's important to be aware of the trade-offs that you're making when you're taking on technical debt, and to make sure that you're not sacrificing too much in the long run."
     },
     {
         "id": "69",
         "question": "What was the most eye-opening experience you’ve had in your career?",
-        "answer": ""
+        "answer": " I think the most eye-opening experience I've had in my career was realizing that I don't know everything, and that I never will. There's always going to be something new to learn, and that's okay. It's important to be humble and to be willing to learn from others, no matter how experienced you are. I think this is especially true in the tech industry, where things are constantly changing and evolving. This doesn't make you worthless, it doesn't make you a bad programmer, it just makes you human."
     },
     {
         "id": "70",
         "question": "Brag about yourself a little.",
-        "answer": ""
+        "answer": "I'm a 20 year old fullstack and ML/AI engineer. I am a passionate, self taught (but also schooled) programmer with a love for learning and a desire to constantly improve. I'm very adaptable, can learn new things extremely fast, and I have a lot of experience with a wide range of technologies. My personal favourites are web development, deep learning (mostly computer vision due to hardware requirements), and data science. I have taken courses both in university and online (Coursera) to further my knowledge, and I have a lot of personal projects I've worked on. "
     },
     {
         "id": "71",
