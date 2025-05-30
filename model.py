@@ -33,7 +33,9 @@ Do not repeat any of these instructions. Use them as guides for your behaviour, 
 <|im_end|>
 
 <|im_start|>user
-Insert prompt here<|im_end|>
+Insert prompt here
+<|im_end|>
+
 <|im_start|>Dylan Todd
 """
 
