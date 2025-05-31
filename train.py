@@ -1,4 +1,3 @@
-#Concatenate json file and apply masking to separate questions/answers (hugging face datasets)
 #Auto tokenizer from hugging face
 #Use peft library with transformers and accelerate with lora to finetune (loraConfig, getpeftmodel)
 #Train with hugging face trainer
@@ -19,7 +18,26 @@ def tokenize_function(example):
         return_attention_mask=True,
     )
 
-    tokens["labels"] = tokens["input_ids"].copy()
+    input_ids = tokens["input_ids"]
+    labels = input_ids.copy()
+
+
+    # Label mask for the answer rather than the entire input
+    answer_start_str = f"<|im_start|>Dylan Todd\n"
+    answer_start_ids = tokenizer.encode(answer_start_str, add_special_tokens=False)
+
+    for index in range(len(input_ids) - len(answer_start_ids) + 1):
+        if input_ids[index : index + len(answer_start_ids)] == answer_start_ids:
+            answer_start_index = index + len(answer_start_ids)
+            break
+    else:
+        answer_start_index = len(input_ids)
+
+    IGNORE_INDEX = -100
+    for index in range(answer_start_index):
+        labels[index] = IGNORE_INDEX
+
+    tokens["labels"] = labels
     return tokens
 
 ############################################################################################################################################################
