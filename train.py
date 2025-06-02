@@ -1,9 +1,6 @@
-#Auto tokenizer from hugging face
-#Use peft library with transformers and accelerate with lora to finetune (loraConfig, getpeftmodel)
-#Train with hugging face trainer
-
 from datasets import load_dataset
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer, DataCollatorForLanguageModeling
+from peft import LoraConfig, TaskType, get_peft_model
 import torch
 
 
@@ -45,10 +42,58 @@ def tokenize_function(example):
 if __name__ == "__main__":
     model_id = "rasyosef/phi-2-instruct-v0.1"
 
-    model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.float16, device_map="auto")
+    model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.float16).to("cuda")
+    model.gradient_checkpointing_enable()
+
     tokenizer = AutoTokenizer.from_pretrained(model_id)
 
     dataset = load_dataset("json", data_files="./Personal-QA-DATASET.json")
+    dataset = dataset["train"]
+    dataset = dataset.shuffle(seed=42)
 
-    tokenized_dataset = dataset.map(tokenize_function, batched=False)
-    tokenized_dataset.set_format(type="torch")
+    eval_dataset = dataset.select(range(15))
+    train_dataset = dataset.select(range(15, len(dataset)))
+
+    tokenized_train = train_dataset.map(tokenize_function, batched=False)
+    tokenized_eval = eval_dataset.map(tokenize_function, batched=False)
+
+    tokenized_train.set_format(type="torch")
+    tokenized_eval.set_format(type="torch")
+
+    peft_config = LoraConfig(task_type=TaskType.CAUSAL_LM,
+                              inference_mode = False, 
+                              r=8,
+                              lora_alpha=32,
+                              lora_dropout=0.1)
+    
+    model = get_peft_model(model, peft_config)
+
+    data_collator = DataCollatorForLanguageModeling(
+        tokenizer=tokenizer,
+        mlm=False,
+    )
+    
+    training_args = TrainingArguments(
+        output_dir="./results",
+        per_device_train_batch_size=1,
+        per_device_eval_batch_size=4,
+        num_train_epochs=5,
+        save_strategy="epoch",
+        learning_rate=2e-4,
+        weight_decay=0.01,
+        fp16=True,
+        report_to="none",
+        save_total_limit=1,
+    )
+
+    trainer = Trainer(
+        model=model,
+        args=training_args,
+        train_dataset=tokenized_train,
+        eval_dataset=tokenized_eval,
+        tokenizer=tokenizer,
+        data_collator=data_collator,
+    )
+
+    trainer.train()
+
