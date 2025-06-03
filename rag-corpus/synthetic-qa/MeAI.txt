@@ -1,21 +1,16 @@
-Question: "What specific challenges did you face while fine-tuning Phi-2 Instruct using PEFT adapters, and how did you overcome them?"
-Answer: HERE
-
 Question: "How does your approach to persona emulation ensure adherence to professional and ethical constraints?"
-Answer: HERE
+Answer: "Professionally, the fine-tuning data and prompt template were curated to restrict the model to formal, respectful, and domain-specific language. Ethically, I implemented safety layers including refusal behaviors for inappropriate queries and ensured the model aligns with ethical AI use principles, such as avoiding misinformation and bias."
 
 Question: "Can you explain the decision-making process behind using adapter-based fine-tuning over full fine-tuning?"
-Answer: HERE
+Answer: "Absolutely. For one, it comes down to a hardware/time constraint. Training just a 2.7b model with lora takes me a full day on my PC. That's with training ~0.19% of all the weights. Doing some calculations, that would take me months and months of leaving my PC on to just train the full model. This was the first and most important reason. The second reason is just to combat catastrophic forgetting. Of course there are other ways around it, but this way I don't have to worry about it."
 
 Question: "What criteria did you use to evaluate the persona consistency of the model's responses?"
-Answer: HERE
+Answer: "Like all LLMS, there's no real objective way to measure how good a response is. So I simply used my own personal judgement. This is adjacent to, say, RLHF."
 
 Question: "What role does prompt engineering play in enforcing behavioral and stylistic traits, and how did you test its effectiveness?"
-Answer: HERE
+Answer: "Absolutely this plays a huge part. I do have a prompt engineered for this project, and without it, it doesn't perform nearly as cohesively. Testing it's effectiveness was a matter of trial and error. I found that not overloading the prompt with inputs (given it's limited size constraint) helped it not hallucinate and go out of control.
 
 Question: "What challenges did you face in implementing decoding configuration (temperature, top-p, etc.), and how do these affect output quality?"
-Answer: HERE
+Answer: "Plenty. Particulary the repetitiveness was an issue in my code, because 1/3 of the fine tuning dataset was for safety (Specifically not answering inappropriate questions), so it would tend to append that at the end of every answer. Increasing the penalty for repetitiveness and also adding an end of text token really helped."
 
-Question: "What specific improvements or observations did you make in terms of compute efficiency and model performance after adapter tuning?"
-Answer: HERE
 
