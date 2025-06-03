@@ -1,0 +1,46 @@
+Name: Dylan Todd
+Titles:
+  - Machine Learning Engineer/Data Scientist/Software Engineer
+  - Software/Full-Stack Engineer | Python Developer
+Location: Greater Sudbury, Ontario, Canada
+Contact Email: dylan.todd04@gmail.com
+Online Links:
+  - Github
+  - Portfolio
+
+SUMMARY_STATEMENTS
+Version 1: Software engineer with strong foundations in Python and machine learning, passionate about leveraging technology to solve complex problems. My strong communication skills and analytical mindset, combined with an unwavering commitment to continuous learning, enable me to adapt quickly and deliver meaningful results in dynamic technical environments.
+Version 2: Resourceful Software Engineer with expertise in Python, SQL, and full-stack web development. Proven ability to deliver production-grade features, optimize performance, and troubleshoot complex systems. Strong communicator and problem-solver with experience working in startup environments. Passionate about building impactful products and continuously growing technical skills.
+
+EDUCATION
+Degree: Bachelor of Computer Science
+Institution: Laurentian University
+GPA: 90%
+Duration: 04/2022 - 05/2026
+
+CERTIFICATIONS
+Certification: Deep Learning Specialization
+Issuing Organization: Coursera
+Grade: 100%
+Issue Date/Duration: 12/2023 - 02/2024
+
+EXPERIENCE
+Role: Software Engineering Intern
+Company: Galatea Solutions
+Location: Remote
+Duration: 04/2023 - 09/2023
+Responsibilities & Achievements:
+  - Led full-stack web development project, completing 15+ feature implementations ahead of schedule using HTML/CSS/JavaScript.
+  - Engineered website enhancements resulting in a 50% decrease in website loading time and 30% increase in user engagement.
+  - Optimized page load speeds by 50% through frontend performance tuning (lazy loading, code splitting) and backend query optimizations.
+  - Collaborated within a small team of 3 interns, resolving 20+ critical issues and improving platform stability.
+
+Role: Junior Programmer
+Company: DataLemur
+Location: Remote
+Duration: 07/2024 - CURRENT (or 12/2025)
+Responsibilities & Achievements:
+  - Designed and deployed a web-based SQL game/site using HTML, CSS, JavaScript, and PGLite, achieving over 100,000+ visits / boosting site traffic by 1M+.
+  - Optimized database performance using PGLite, reducing query response time by 60%.
+  - Developed 10 advanced SQL challenges, improving user engagement and platform growth.
+  - Enhanced website speed/performance via schema optimizations and additional software changes by 60%.

@@ -1,0 +1,54 @@
+PROFILE SUMMARY
+Name: Dylan Todd
+Pronouns: He/Him
+Headline: Specializing in Data Analysis and Deep Learning
+Location: Greater Sudbury, Ontario, Canada
+Institution: Laurentian University/Université Laurentienne
+Connections: 41
+Open to: Software Developer and Software Engineer roles
+
+ABOUT
+Computer Applications student at Laurentian University, pivoting towards artificial intelligence and machine learning. Holds certifications in data analysis and deep learning. Academic and professional pursuits focus on how AI can revolutionize industries. Possesses hands-on experience in data preparation and deep learning through multiple personal projects, applying theoretical knowledge to practical solutions. Committed to innovation and excellence in technology.
+
+EDUCATION
+
+Institution: Laurentian University/Université Laurentienne
+Degree: Master of Computer Applications - MCA
+Specialization: Computer Games and Programming Skills
+Duration: January 2022 - May 2026
+Grade: 90%
+
+LICENSES & CERTIFICATIONS
+
+Certification: Deep Learning Specialization with Andrew Ng
+Issuing Organization: Coursera
+Issue Date: February 2024
+Associated Skills: Deep Learning, Artificial Neural Networks
+
+Certification: IBM Certified Data Analyst
+Issuing Organization: IBM
+Associated Skills: Python
+Note: Includes "Data Analysis with Python Certificate" with a grade of 100%.
+
+COURSES (Laurentian University/Université Laurentienne)
+COSC-3207EL: Algorithm Design and Analysis
+COSC-2406EL: Assembly Language Programming
+MATH-1717EL: Calculus I
+MATH-1037EL: Calculus II
+COSC-1701EL: Computer Applications I
+COSC-1702EL: Computer Applications II
+COSC-3406EL: Computer Organization and Architecture
+COSC-1046ELL: Computer Science I
+COSC-2047-ELL: Computer Science II
+COSC-2006EL: Data Structures and Algorithms
+COSC-2307EL: Database Programming
+COSC-1056EL: Discrete Mathematics I
+COSC-2056EL: Discrete Mathematics II
+COSC-3026EL: Game Design
+COSC-2206EL: Internet Tools
+COSC-3807EL: Intro. To Computer Networks
+MATH-1057EL: Linear Algebra I
+COSC-3127EL: Programming Languages
+STAT-2246EL: Statistics for Scientists
+COSC-2306EL: The UNIX Operating System
+COSC-2026EL: User Interface Design
