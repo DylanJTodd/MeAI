@@ -1,29 +1,23 @@
 Question: "What were some of the most technically challenging aspects of building a client-side SQL execution and validation system using SQL.js?"
-Answer: HERE
+Answer: "The hardest part was navigating around some of the syntax and queries that I wasn't used to. I learned basic MySQL, so using postgres was definitely a bit of a challenge to ensure that the queries were structured right. Getting the SQL.js to work on the browser wasn't all that difficult because of examples online."
 
 Question: "How did you ensure the correctness of user-submitted SQL queries given differences in row order or column aliases?"
-Answer: HERE
+Answer: "I ignored column names completely, which means aliases does not matter. As for row order, this was strict. In all the queries, you're expected to order them by a certain way, including filters. As for the difference in columns, however, it's as simple as just making sure every row contains the right information in whatever order."
 
 Question: "What was your approach to designing and managing the progression logic for the scenario-based levels?"
-Answer: HERE
+Answer: "Honestly my opinion was kind of overruled when it came to managing the progression. I did create every single level and query, however I would have made the learning curve slightly easier if it were up to me. To actually create each level, I first took note of all the games in squid games, and figured out ways to make that into an SQL query. However this alone wasn't enough to make 10 levels, so in between each of these levels, I just thought of the world/lore itself, and designed queries that would make sense given the context of the show. Then I added difficulty either with more operations per query, or multiple steps per query"
 
 Question: "Can you explain how the modular architecture supports the extensibility of new challenges or schemas?"
-Answer: HERE
+Answer: "Yes! All it takes to add more levels and schemas is to create a new html page, link it in the navigation, create a new sql file (that creates the database) and link it with the new file. That's all!"
 
 Question: "What role did you play in leading the team of 4 engineers, and how did you manage collaboration?"
-Answer: HERE
+Answer: "I was in charge of the main ideas and most of the programming, the other 4 engineers helped out with minor things, formatting, style, etc."
 
 Question: "How did you use Figma in the development process, and how closely was the design followed in the implementation?"
-Answer: HERE
+Answer: "I used Figma to create an initial protoype, running it by the ceo for approval, ensuring everything looked formatted well. Then moved on to actually designing the site. For the most part, 90% of what was shown on the figma prototype was on the final product, but there were extra additions, minor color changes, etc."
 
 Question: "What kinds of feedback or metrics did you collect from users to measure engagement or learning outcomes?"
-Answer: HERE
+Answer: "I was not the administrator of the site, so I could not directly track performance, however I was able to see the visits to the page which is now over 1 million. Furthermore, the reception on reddit is overwhelmingly positive."
 
 Question: "Why did you choose SQL.js over other client-side SQL engines or backend execution?"
-Answer: HERE
-
-Question: "How did you implement accessibility considerations in your custom web components and UI design?"
-Answer: HERE
-
-Question: "In what ways has the platform been used in recruitment settings, and how does it help assess SQL proficiency?"
-Answer: HERE
+Answer: "At first, I was using SQLite, but to maintain cross site compatibility, I switched to SQL.js (the site teaches postgreSQL)"
