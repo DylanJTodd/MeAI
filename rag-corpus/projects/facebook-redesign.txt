@@ -21,3 +21,5 @@ Outcome / Impact:
 Delivered a visually refreshed and user-friendly interface prototype
 Demonstrated front-end design skills and proficiency in modern web standards
 Provided a foundation for further development or integration with backend services
+Led a team of 5 computer science students to completion
+Achieved a 95% grade in the course.
