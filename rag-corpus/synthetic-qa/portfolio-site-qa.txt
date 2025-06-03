@@ -1,30 +1,27 @@
 Question: "How did you ensure keyboard navigability and accessibility across different devices and screen sizes?"
-Answer: HERE
+Answer: "For navigation, as this is a keyboard based site, I made sure that tabbing felt intuitive and made sense. It properly went from one option to the next, but you can also use arrow keys. However I also wanted to make sure mouse was a valid option for people who cannot use a keyboard. As for differing screen sizes, I used media queries and proper scaling to ensure it looked good no matter the screen size."
 
 Question: "What were some challenges you faced when implementing the animated terminal-style UI, and how did you overcome them?"
-Answer: HERE
+Answer: "The animations in particular was the most technically challenging part of this website. The individual tweaking and actually coming up with some of them for at least 10 different components were definitely challenging. Luckily there's a lot of resources online for similar styles of what I want, but none of them came perfect."
 
 Question: "Can you explain how you used Svelte stores to manage user sessions and UI state across components?"
-Answer: HERE
+Answer: "I used two main svelte stores for my project. One was a routing store which simply kept track of the current page, and the other was a global store which kept track of all different kinds of variables. (Text speed, size, font color, etc). Therefore, when I needed one in another component (say rendering text), I could reference that svelte store to get the information."
 
 Question: "Why did you choose to use a LAMP stack for the backend instead of a more modern backend framework or language?"
-Answer: HERE
+Answer: "Well first and foremost, this was a class project and that was one of the requirements, so this is the main reason. But also, I feel that getting comfortable with maybe the less popular but more low level ways of working with the backend helps me get a better feel of what exactly I'm doing. If it was up to me, I would have just used sveltekit."
 
 Question: "How does the system persist and sync user preferences across sessions and devices?"
-Answer: HERE
+Answer: "There's a split of state saving which is local and actual data stores. Locally, we just use cookies that never clear that saves things like your color preferences, sound preferences, etc. However there are also accounts (which do not save between sessions) that have permanant storage by means of a database"
 
 Question: "How did you design the RESTful API endpoints to maintain a clear separation of concerns?"
-Answer: HERE
-
-Question: "What considerations did you take to make the terminal theme both immersive and accessible?"
-Answer: HERE
+Answer: "RESTful API is by default separated by concerns. Namely into GET, PUT, DELETE, and POST, however beyond that I also separated each into the different kinds of requests. I did not let the user write their own sql and have it render, rather I had predefined queries, and the only thing that the user could modify was the ID's (which would be checked for security if they had permissions to do so)."
 
 Question: "What measures did you take to secure user authentication and data transmission in your backend?"
-Answer: HERE
+Answer: "For user authentification, on login each user is given a certain token (attached to their session data), that represents their credentials. Whenever any request is made, it first identifies if it has a token, then it verifies if the request is eligible for that person (so a regular user can't view another users information, but an admin could), and then no sql injection is possible, so the result is returned and processed by the front end who displays it."
 
 Question: "How scalable is Portfolio-OS, and what would need to change to support a higher user load or new features?"
-Answer: HERE
+Answer: "Portfolio-OS is very scalable in terms of the code and infastructure. The only thing that would need to be changed is adding more storage to support the database when/if new customers start writing to it."
 
 Question: "What inspired the Fallout 4 terminal aesthetic, and how did you translate that into a functional web interface?"
-Answer: HERE
+Answer: "I've always really liked interacting with the terminal, and I've seen plenty of really cool portfolios that utilize the terminal in this way. However I also wanted to consider accessibility, and realizing that a lot of recruiters wouldn't actually know how to use a terminal, I decided to go with something more user friendly. I also really loved the fallout series (one of my favourites), so I combined the two and made it a fallout style terminal website."
 
