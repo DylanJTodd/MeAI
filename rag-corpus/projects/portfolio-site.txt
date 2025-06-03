@@ -1,0 +1,33 @@
+Project Name: Portfolio-OS (Fallout 4-Inspired Terminal Portfolio)
+Tech Stack: Svelte, TypeScript, Vite, Svelte Stores, HTML/CSS, LAMP stack (Linux, Apache, MySQL, PHP), RESTful API, Playwright (E2E testing)
+
+Problem Solved:
+Designed to provide an immersive, accessible, and customizable portfolio experience, Portfolio-OS addresses the need for a distinctive, keyboard-navigable personal website that showcases projects and skills while emulating the retro-futuristic terminal interface of Fallout 4.
+
+Key Features / Functionality:
+
+Fully keyboard-navigable UI with support for mouse interaction
+Animated terminal-style text scroll, caret, and sound effects
+Customizable terminal color, text speed, font size, and low-graphics mode
+User authentication (login/signup), persistent settings via cookies and database
+RESTful backend for user data, notes, messages, and configuration
+Project pages with dynamic content, image carousels, and external links
+Admin-only message management interface
+Contact form with server-side message handling
+Breadcrumb navigation reflecting user journey
+Accessibility features including color themes and keyboard shortcuts
+Architecture & Implementation Details:
+
+Frontend: Built with Svelte and TypeScript, leveraging Svelte stores for global state (user session, settings, UI preferences). Components are modular, with reusable UI elements (e.g., ChoiceSelector, TextScroll, ColorSelector).
+Routing: Managed via a writable store (currentRoute), with breadcrumb tracking for navigation context.
+Customization: User preferences are stored in cookies and synchronized with backend settings for persistence across sessions.
+Backend: RESTful API endpoints (PHP) handle authentication, settings, notes, and messages, interfacing with a normalized MySQL database.
+Admin Features: Role-based access for message management, including search, read/unread toggling, and bulk deletion.
+Testing: Playwright E2E tests validate core UI flows.
+UI Effects: Custom Svelte components implement CRT scanlines, text flicker, and animated SVG cursor for authentic terminal aesthetics.
+Responsive Design: CSS media queries ensure usability on both desktop and mobile devices.
+
+Outcome / Impact:
+Delivered a unique, interactive portfolio platform with high accessibility and engagement
+Demonstrated advanced frontend engineering, state management, and integration with a secure backend
+Achieved robust separation of concerns and extensibility for future features

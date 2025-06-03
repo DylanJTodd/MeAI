@@ -1,0 +1,25 @@
+Project Name: ThumbGenie
+Tech Stack: Python, PyTorch, Pandas, NumPy, PIL, CSV, StableDiffusion
+
+Problem Solved:
+Automates the generation of high-quality thumbnail images using deep learning, streamlining the process for content creators and digital media workflows.
+
+Key Features / Functionality:
+
+Deep learning-based image generation using a trained U-Net model.
+Batch processing of images for thumbnail creation.
+Preprocessing pipeline for preparing image datasets.
+Metadata management for generated images via CSV.
+Organized output directories for generated and source images.
+Architecture & Implementation Details:
+
+Modular Python codebase with separate scripts for preprocessing (preprocessing.py), model training (training.py), and image generation (thumbgenie.py).
+Utilizes a U-Net architecture, with the final trained model stored in unet_final-001.pt.
+Data pipeline includes image loading, preprocessing, and augmentation.
+Generated images and associated metadata are systematically stored in dedicated directories (generated_images, metadata.csv).
+Leverages PyTorch for model definition, training, and inference; Pandas and CSV for metadata handling; PIL for image manipulation.
+
+Outcome / Impact:
+Significantly reduces manual effort in thumbnail creation.
+Enables scalable, automated image generation for digital content pipelines.
+Demonstrates effective application of deep learning to real-world media production tasks.

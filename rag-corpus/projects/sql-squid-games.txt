@@ -1,0 +1,33 @@
+Project Name: SQL Games (SQL Squid Games)
+Tech Stack: HTML5, CSS3, JavaScript (ES6), Web Components, CodeMirror, SQL.js, Custom Elements, PostgreSQL/SQLite (simulated), Figma (UI prototyping)
+
+Problem Solved:
+Designed to gamify SQL learning and assessment, SQL Games provides an interactive, scenario-driven environment for users to practice and master SQL queries through progressively challenging, story-based exercises. The platform addresses the need for engaging, hands-on SQL education and self-assessment.
+
+Key Features / Functionality:
+
+Interactive SQL editor with syntax highlighting and auto-refresh (powered by CodeMirror)
+Custom web components for exercises and quizzes (<sql-exercise>, <sql-quiz>)
+Real-time SQL query execution and result validation using SQL.js
+Scenario-based levels with dynamic problem statements and schema diagrams
+Automated solution checking with feedback and progression logic
+Modular, level-based HTML structure for extensibility
+Integrated hints, explanations, and learning resources
+Responsive UI with themed styling and accessibility considerations
+Architecture & Implementation Details:
+
+Modular codebase with separation of concerns:
+main.js implements custom elements for exercises and quizzes, handles user input, query execution, and result comparison
+codemirror.js and codemirrorsql.js provide SQL syntax highlighting and editor configuration
+Each level is a standalone HTML file embedding custom components and referencing shared scripts and styles
+SQL queries are executed client-side using SQL.js, enabling instant feedback without backend dependencies
+Solution validation compares normalized query results, abstracting away row order and column naming differences
+UI/UX designed in Figma and implemented with custom CSS themes for immersive gameplay
+Extensible structure allows for easy addition of new levels, schemas, and challenges
+
+Outcome / Impact:
+Delivered an engaging, web-based SQL learning platform adopted for educational and recruitment purposes
+Enhanced user engagement and retention through gamification and immediate feedback
+Demonstrated effective use of modern web technologies and component-based architecture for interactive learning tools
+Over 1 million visits on the page to date
+Led a team of 4 engineers.
