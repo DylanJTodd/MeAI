@@ -1,0 +1,21 @@
+Question: "What specific challenges did you face while fine-tuning Phi-2 Instruct using PEFT adapters, and how did you overcome them?"
+Answer: HERE
+
+Question: "How does your approach to persona emulation ensure adherence to professional and ethical constraints?"
+Answer: HERE
+
+Question: "Can you explain the decision-making process behind using adapter-based fine-tuning over full fine-tuning?"
+Answer: HERE
+
+Question: "What criteria did you use to evaluate the persona consistency of the model's responses?"
+Answer: HERE
+
+Question: "What role does prompt engineering play in enforcing behavioral and stylistic traits, and how did you test its effectiveness?"
+Answer: HERE
+
+Question: "What challenges did you face in implementing decoding configuration (temperature, top-p, etc.), and how do these affect output quality?"
+Answer: HERE
+
+Question: "What specific improvements or observations did you make in terms of compute efficiency and model performance after adapter tuning?"
+Answer: HERE
+

@@ -1,0 +1,26 @@
+Question: "What inspired the development of ThumbGenie, and what specific user pain points does it address?"
+Answer: HERE
+
+Question: "What challenges did you face while training the U-Net model, and how were they addressed?"
+Answer: HERE
+
+Question: "Can you describe how the U-Net architecture was adapted or customized for the thumbnail generation task in ThumbGenie?"
+Answer: HERE
+
+Question: "How does ThumbGenie ensure that the generated thumbnails maintain visual relevance or quality for the source content?"
+Answer: HERE
+
+Question: "What types of image augmentations or preprocessing steps are included in the pipeline?"
+Answer: HERE
+
+Question: "How scalable is ThumbGenie when applied to large batches of media, and what optimizations were made to support this?"
+Answer: HERE
+
+Question: "How does the metadata system work in ThumbGenie, and what kind of information is stored in the CSV files?"
+Answer: HERE
+
+Question: "In what ways could ThumbGenie be integrated into existing content management systems or video platforms?"
+Answer: HERE
+
+Question: "What future improvements or features would you consider adding to ThumbGenie if you continued development?"
+Answer: HERE

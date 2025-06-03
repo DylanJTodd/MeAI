@@ -1,0 +1,20 @@
+Question: "What motivated you to choose Facebook’s UI as the target for redesign?"
+Answer: HERE
+
+Question: "Can you explain the decision to keep the entire application client-side without a backend?"
+Answer: HERE
+
+Question: "What tools or methods did you use to ensure visual consistency across all redesigned components?"
+Answer: HERE
+
+Question: "How did you handle dynamic content updates or user interactions in the absence of a backend?"
+Answer: HERE
+
+Question: "What challenges did you face in modernizing the UI and how did you overcome them?"
+Answer: HERE
+
+Question: "Which part of the UI redesign are you most proud of, and why?"
+Answer: HERE
+
+Question: "How would you scale or extend this prototype to support real-time data and backend integration?"
+Answer: HERE

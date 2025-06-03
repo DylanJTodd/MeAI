@@ -1,0 +1,29 @@
+Question: "What were some of the most technically challenging aspects of building a client-side SQL execution and validation system using SQL.js?"
+Answer: HERE
+
+Question: "How did you ensure the correctness of user-submitted SQL queries given differences in row order or column aliases?"
+Answer: HERE
+
+Question: "What was your approach to designing and managing the progression logic for the scenario-based levels?"
+Answer: HERE
+
+Question: "Can you explain how the modular architecture supports the extensibility of new challenges or schemas?"
+Answer: HERE
+
+Question: "What role did you play in leading the team of 4 engineers, and how did you manage collaboration?"
+Answer: HERE
+
+Question: "How did you use Figma in the development process, and how closely was the design followed in the implementation?"
+Answer: HERE
+
+Question: "What kinds of feedback or metrics did you collect from users to measure engagement or learning outcomes?"
+Answer: HERE
+
+Question: "Why did you choose SQL.js over other client-side SQL engines or backend execution?"
+Answer: HERE
+
+Question: "How did you implement accessibility considerations in your custom web components and UI design?"
+Answer: HERE
+
+Question: "In what ways has the platform been used in recruitment settings, and how does it help assess SQL proficiency?"
+Answer: HERE

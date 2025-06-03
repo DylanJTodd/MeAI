@@ -1,0 +1,30 @@
+Question: "How did you ensure keyboard navigability and accessibility across different devices and screen sizes?"
+Answer: HERE
+
+Question: "What were some challenges you faced when implementing the animated terminal-style UI, and how did you overcome them?"
+Answer: HERE
+
+Question: "Can you explain how you used Svelte stores to manage user sessions and UI state across components?"
+Answer: HERE
+
+Question: "Why did you choose to use a LAMP stack for the backend instead of a more modern backend framework or language?"
+Answer: HERE
+
+Question: "How does the system persist and sync user preferences across sessions and devices?"
+Answer: HERE
+
+Question: "How did you design the RESTful API endpoints to maintain a clear separation of concerns?"
+Answer: HERE
+
+Question: "What considerations did you take to make the terminal theme both immersive and accessible?"
+Answer: HERE
+
+Question: "What measures did you take to secure user authentication and data transmission in your backend?"
+Answer: HERE
+
+Question: "How scalable is Portfolio-OS, and what would need to change to support a higher user load or new features?"
+Answer: HERE
+
+Question: "What inspired the Fallout 4 terminal aesthetic, and how did you translate that into a functional web interface?"
+Answer: HERE
+
