@@ -1,20 +1,17 @@
 Question: "What motivated you to choose Facebook’s UI as the target for redesign?"
-Answer: HERE
+Answer: "Well it was a class project, so we had to choose any website. We found sites like craiglist or 4chan which were very clearly outdated, but we wanted to challenge ourselves. So we chose facebook, which looked nice, but was actually too overcluttered and modern."
 
 Question: "Can you explain the decision to keep the entire application client-side without a backend?"
-Answer: HERE
+Answer: "The aim of the project was simply a demonstration of UI and UX principles. With that being said, having a backend or handling client data at all was completely out of scope."
 
 Question: "What tools or methods did you use to ensure visual consistency across all redesigned components?"
-Answer: HERE
-
-Question: "How did you handle dynamic content updates or user interactions in the absence of a backend?"
-Answer: HERE
+Answer: "Well we had already planned out all the pages beforehand first in rough sketches, then in figma. This was done with visual consistency in mind, so the actual coding portion was just putting what we saw into code."
 
 Question: "What challenges did you face in modernizing the UI and how did you overcome them?"
-Answer: HERE
+Answer: "Facebook is already pretty modernized and takes into account UI/UX, so it was tough, especially considering we were only second year students at that point. But we found ways around it by researching pain points, finding better ways to handle some navigation (like our dual sidebars), and darkmode especially was nice."
 
 Question: "Which part of the UI redesign are you most proud of, and why?"
-Answer: HERE
+Answer: "I really like main home page menus. I thought it was pretty creative, and actually a lot of ideas of our redesign was implemented into the new Facebook look a year after the fact."
 
 Question: "How would you scale or extend this prototype to support real-time data and backend integration?"
-Answer: HERE
+Answer: "To be honest, it would require a complete refactor. This code is not meant to handle that kind of operation, and everything was put together this way for a reason."
