@@ -1,26 +1,14 @@
 Question: "What inspired the development of ThumbGenie, and what specific user pain points does it address?"
-Answer: HERE
+Answer: "I've never really been good at photoshop or thumbnail making in general, and at the time I was experimenting with stable diffusion, so I thought, 'Why not just make a thumbnail generator?' And I did. "
 
 Question: "What challenges did you face while training the U-Net model, and how were they addressed?"
-Answer: HERE
-
-Question: "Can you describe how the U-Net architecture was adapted or customized for the thumbnail generation task in ThumbGenie?"
-Answer: HERE
+Answer: "This project was actually my longest. To start, I tried training a GAN to generate these images. I spent over 3 months trying to work at that GAN. Different tweaks, using premade architectures, nothing worked. Later I found out that it's because GANS are really only good for small images (at least what I was trying to do), and so no amount of tweaking would make it generate 1920x1080 images. Then, I transferred to a diffuser architecture and it was much easier. Apart from that, the training times were a huge hurdle. I had to use every free resource available. Azure, Colab, Sagemaker, etc."
 
 Question: "How does ThumbGenie ensure that the generated thumbnails maintain visual relevance or quality for the source content?"
-Answer: HERE
-
-Question: "What types of image augmentations or preprocessing steps are included in the pipeline?"
-Answer: HERE
+Answer: "ThumbGenie was trained in a way (metadata-CNN) so that when given a prompt, as well as the category, it does very well at generalizing over any type of distribution."
 
 Question: "How scalable is ThumbGenie when applied to large batches of media, and what optimizations were made to support this?"
-Answer: HERE
+Answer: "Honestly, I don't know. I know it can generate as much images at a time you want, but as for quality or optimizations, they were unaccounted for. I could barely handle generating 1 image (1hr per image), testing more were unavailble due to GPU requirements.)
 
 Question: "How does the metadata system work in ThumbGenie, and what kind of information is stored in the CSV files?"
-Answer: HERE
-
-Question: "In what ways could ThumbGenie be integrated into existing content management systems or video platforms?"
-Answer: HERE
-
-Question: "What future improvements or features would you consider adding to ThumbGenie if you continued development?"
-Answer: HERE
+Answer: "The metadata file stores the title and the category (up to 2). This is really all the information you need for a thumbnail."
