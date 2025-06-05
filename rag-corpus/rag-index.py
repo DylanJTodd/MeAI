@@ -5,7 +5,7 @@ import faiss
 
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
-with open("rag_docs.txt", "r", encoding="utf-8") as f:
+with open("rag-corpus/rag_docs.txt", "r", encoding="utf-8") as f:
     docs = f.read().split("\n---\n")
 
 embeddings = embedder.encode(docs, convert_to_tensor=False)

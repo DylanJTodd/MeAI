@@ -2,21 +2,30 @@
 
 from transformers import AutoTokenizer
 import os
+import re
 
 tokenizer = AutoTokenizer.from_pretrained("rasyosef/phi-2-instruct-v0.1")
 
-def split_into_chunks(text, max_tokens=50):
-    words = text.split()
-    chunks, current_chunk = [], []
+def split_into_chunks(text, max_tokens=80):
+    sentences = re.split(r'(?<=[.!?]) +', text)
 
-    for word in words:
-        current_chunk.append(word)
-        if len(tokenizer(" ".join(current_chunk))["input_ids"]) >= max_tokens:
-            chunks.append(" ".join(current_chunk))
-            current_chunk = []
+    chunks = []
+    current_chunk = ""
+
+    for sentence in sentences:
+        tentative = current_chunk + " " + sentence if current_chunk else sentence
+        tokenized = tokenizer(tentative, truncation=False, return_tensors="np")
+        token_count = len(tokenized["input_ids"][0])
+
+        if token_count <= max_tokens:
+            current_chunk = tentative
+        else:
+            if current_chunk:
+                chunks.append(current_chunk.strip())
+            current_chunk = sentence
 
     if current_chunk:
-        chunks.append(" ".join(current_chunk))
+        chunks.append(current_chunk.strip())
 
     return chunks
 
