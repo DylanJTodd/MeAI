@@ -1,2 +1,4 @@
 .venv
 results
+rag-corpus/rag_docs.txt
+rag-corpus/rag-index.faiss
