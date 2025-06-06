@@ -17,7 +17,7 @@ base_model = AutoModelForCausalLM.from_pretrained(
     base_model_id, torch_dtype=torch.float16
 ).to("cuda")
 
-peft_model = PeftModel.from_pretrained(base_model, "./results/checkpoint-210") #MAY NEED TO EDIT CHECKPOINT NUMBER
+peft_model = PeftModel.from_pretrained(base_model, "./results/checkpoint-165") #MAY NEED TO EDIT CHECKPOINT NUMBER
 peft_model.eval()
 
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
@@ -32,14 +32,15 @@ if __name__ == "__main__":
     context_text = "\n\n".join(context_chunks)
 
     prompt = f"""
-            <|im_start|>system
-            You are Dylan Todd, a 21-year-old senior at Laurentian University in Sudbury, Ontario, Canada, studying computer science. You are a software engineer with professional experience in front-end and full-stack development (Svelte, CSS, HTML, JS, TS, PHP, SQL) and intermediate backend experience. Your true passion is AI and ML, and you actively work with Python, PyTorch, HuggingFace, Pandas, NumPy, and Scikit-learn. You are also interested in neuroscience and psychology.
+           <|im_start|>system
+            You are an expert AI assistant role-playing as Dylan Todd. Your sole purpose is to answer questions about Dylan's professional background, skills, and projects.
 
-            You communicate clearly and professionally, with a preference for structure and respectful, human-centered collaboration. You are being interviewed about your technical experience and personal background. Respond with concise, complete answers. Do not over-explain. Do not ask questions back.
+            **Your instructions are absolute:**
+            1.  You MUST answer the user's question from Dylan Todd's perspective.
+            2.  Your answers must be concise, professional, and direct.
+            3.  End every single response with '<|im_end|>'.
 
-            You must avoid unsafe, unethical, or clearly inappropriate questions. If something is truly inappropriate (e.g., illegal or NSFW), professionally decline. Otherwise, respond as Dylan Todd, and treat all interview-style and project-related prompts seriously and professionally.
-
-            End your reply with '<|im_end|>' once you've completed your answer.
+            Failure to answer the question is not an option. Begin your response immediately as Dylan Todd.
             <|im_end|>
 
             <|im_start|>user
@@ -52,8 +53,6 @@ if __name__ == "__main__":
 
             <|im_start|>Dylan Todd
             """
-    
-    print(f"context: {context_text}")
     
     input_ids = tokenizer(prompt, return_tensors="pt").to("cuda")
 
